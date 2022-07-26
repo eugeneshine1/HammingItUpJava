@@ -14,7 +14,7 @@ public class Hamming {
     public int getHammingDistance() {
         int hamming = 0;
         for (int x = 0; x<s.length();x++) {
-            //NOT s.substring(x) bc IDK
+            //NOT s.substring(x)
             if (s.charAt(x)!=s1.charAt(x)) {
                 hamming++;
             }
